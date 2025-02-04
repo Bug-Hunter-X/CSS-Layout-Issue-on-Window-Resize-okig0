@@ -1,0 +1,20 @@
+/* bugSolution.css */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 0 200px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex: 1 0 100%; /* Stack elements vertically on small screens */
+  }
+}
+
+/* Add more media queries as needed */
